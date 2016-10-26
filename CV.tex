@@ -1,0 +1,368 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SIMPLE-RESUME-CV
+%% <https://github.com/zachscrivena/simple-resume-cv>
+%% This is free and unencumbered software released into the
+%% public domain; see <http://unlicense.org> for details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% INSTRUCTIONS FOR COMPILING THIS DOCUMENT ("CV.tex")
+%% TEX ---(XeLaTeX)---> PDF:
+%%
+%% Method 1: Use latexmk for fully automated document generation:
+%%   latexmk -xelatex "CV.tex"
+%%   (add the -pvc switch to automatically recompile on changes)
+%%
+%% Method 2: Use XeLaTeX directly:
+%%   xelatex "CV.tex"
+%%   (run multiple times to resolve cross-references if needed)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,10pt,oneside]{article}
+%\documentclass[letterpaper,10pt,oneside]{article}
+
+% Do not stop on errors during compilation.
+\nonstopmode
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PREAMBLE.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{CV-Preamble.tex}
+
+% CV Info (to be customized).
+\newcommand{\CVTitle}{Maxwell Bo's Résumé}
+\newcommand{\CVNote}{This document is accurate of {\today}}
+
+% PDF settings and properties.
+\hypersetup{
+pdftitle={\CVTitle},
+pdfauthor={Maxwell Bo},
+pdfsubject={http://maxbo.me/},
+pdfcreator={XeLaTeX},
+pdfproducer={},
+pdfkeywords={},
+pdfpagemode={},
+bookmarks=true,
+unicode=true,
+bookmarksopen=true,
+pdfstartview=FitH,
+pdfpagelayout=OneColumn,
+pdfpagemode=UseOutlines,
+hidelinks,
+breaklinks}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTUAL DOCUMENT.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%
+% TITLE BLOCK %
+%%%%%%%%%%%%%%%
+
+\title{Maxwell Bo}
+
+\begin{subtitle}
+{4 Barker Street, East Brisbane, 4169, QLD}
+\par
+
+\href{mailto:max@maxbo.me}
+{max@maxbo.me} \,\BulletSymbol\, 0447 724 462
+
+\par
+\href{http://maxbo.me/}
+{maxbo.me} \,\BulletSymbol\, \href{https://github.com/MaxwellBo}
+{github.com/MaxwellBo}
+
+
+
+\end{subtitle}
+
+\begin{body}
+
+%%%%%%%%%%%%%%%
+%% EDUCATION %%
+%%%%%%%%%%%%%%%
+
+\section
+{Education}
+{Education}
+{PDF:Education}
+
+\href{https://www.uq.edu.au/}
+{\textbf{University of Queensland}},
+Brisbane, Australia
+\par
+Bachelor of Science (B.S.) in Computer Science
+\hfill
+\DatestampY{2015} --
+\DatestampY{2016}
+\par
+Bachelor of Arts (B.A.) in International Relations (did not complete)
+\hfill
+\DatestampY{2015}
+
+
+\EntryGap
+\href{https://www.churchie.com.au/}
+{\textbf{Anglican Church Grammar School}},
+Brisbane, Australia
+
+\par
+Full Colours for Academics, Special Recommendation Colours for Debating, House
+Captaincy
+\hfill
+\DatestampY{2014}
+
+\par
+\href{https://www.qcaa.qld.edu.au/}{QCAA} Certificate of Academic Commendation
+\hfill
+\DatestampY{2014}
+\begin{detail}
+For Very High Achievement in at least 24 semesters of Authority
+subjects
+\end{detail}
+
+
+%%%%%%%%%%%%%%%%
+%% EXPERIENCE %%
+%%%%%%%%%%%%%%%%
+
+\section
+{Experience}
+{Experience}
+{PDF:Experience}
+
+
+\href{http://www.unsauq.org/}
+{\textbf{UQ United Nations Student Association}},
+University of Queensland
+
+\par
+Member
+\hfill
+\DatestampY{2015} --
+\DatestampY{2016}
+
+\begin{detail}
+\BulletItem
+Serves as a chairperson and technical director for internal \href{http://www.unsauq.org/}{UQUNSA} Model United Nations simulations 
+\BulletItem
+Served as a technical adviser and contributor to the Asia-Pacific Model United Nations Competition 2016 Brisbane Bid
+\end{detail}
+
+\par
+Best Delegate Award, \href{http://www.unsauq.org/}
+{UQ United Nations Student Association},
+\hfill
+\DatestampY{2015}
+
+\par
+Runner-up Best Delegate Award, \href{http://www.amunc.net/}{Asia-Pacific Model United Nations Competition}
+\hfill
+\DatestampY{2015}
+
+\par
+Runner-up Best Delegate Award, \href{http://www.ausnatos.org/}{Australian North Atlantic Treaty Organization Simulation}
+\hfill
+\DatestampY{2015}
+
+\par
+Best Diplomat Award, \href{http://www.unsauq.org/}
+{UQ United Nations Student Association}
+\hfill
+\DatestampY{2015}
+
+\EntryGap
+\href{https://www.toptutors.com.au/}
+{\textbf{Top Tutors}},
+Brisbane, Australia
+\par
+Tutor 
+\hfill
+\DatestampY{2015} --
+\DatestampY{2016}
+\begin{detail}
+Tutors Maths B, Maths C, Physics, Chemistry, IT and Modern History
+\end{detail}
+
+\EntryGap
+\href{http://www.bgda.org.au/}
+{\textbf{BGDA}},
+Brisbane, Australia
+\par
+Debating adjudicator  
+\hfill
+\DatestampY{2015} --
+\DatestampY{2016}
+
+\EntryGap
+\href{http://www.gpsqld.org.au/}
+{\textbf{GPS}},
+Brisbane, Australia
+\par
+Debating adjudicator  
+\hfill
+\DatestampY{2015} --
+\DatestampY{2016}
+
+\EntryGap
+\href{https://unyouth.org.au/}
+{\textbf{UN Youth}},
+Brisbane, Australia
+
+\par
+Member
+\hfill
+\DatestampY{2013} --
+\DatestampY{2016}
+\begin{detail}
+\BulletItem
+Mentor and judge for Australia's largest youth organisation, contributing to Evatt, a national Model UN competition, and Voice, a national public speaking competition
+\end{detail}
+
+
+\par
+4th Place, National Evatt Model UN, UN Youth Australia
+\hfill
+\DatestampY{2014}
+
+\par
+Best Writer, UN Youth Queensland 
+\hfill
+\DatestampY{2013}
+
+
+
+
+
+\EntryGap
+\href{http://www.ozcare.org.au/}
+{\textbf{Ozcare}},
+Brisbane, Australia
+\par
+Community service volunteer
+\hfill
+\DatestampY{2014}
+
+
+
+%%%%%%%%%%%%%%%%
+%% CERTIFICATIONS %%
+%%%%%%%%%%%%%%%%
+\section
+{Certifications}
+{Certifications}
+{PDF:Certifications}
+
+
+
+\textbf{Blue Card}
+\href{https://www.bluecard.qld.gov.au/}{Blue Card Services}
+\hfill
+\DatestampY{2015}
+\begin{detail}
+1365406/1 - 11-Feb-18 - P
+\end{detail}
+
+\EntryGap
+\textbf{RSA}
+\href{http://galaxytraining.com.au/}{Galaxy Training Australia}
+\hfill
+\DatestampY{2015}
+\begin{detail}
+GTA150422119-01
+\end{detail}
+
+\EntryGap
+\textbf{Grade 8 Classical Guitar}
+\href{http://www.trinitycollege.com/}{Trinity College}
+\hfill
+\DatestampY{2014}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%% AWARDS %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section
+{Awards}
+{Awards}
+{PDF:Awards}
+
+
+
+\textbf{Silver Award}
+\href{http://www.dukeofed.com.au/}{The Duke of Edinburgh’s International Award}
+\hfill
+\DatestampY{2013}
+
+
+
+
+%%%%%%%%%%%%%%%%
+%% REFERENCES %%
+%%%%%%%%%%%%%%%%
+
+\section
+{References}
+{References}
+{PDF:References}
+
+\textbf{Russell Neville}
+\par
+Guitar Teacher, Guitarist
+\begin{detail}
+\href{mailto:russnev@iinet.net.au}
+{russnev@iinet.net.au}
+\,\BulletSymbol\,
+0417 074 341
+\end{detail}
+
+\EntryGap
+\textbf{Chris Nield}
+\par
+Teacher, Housemaster of Mawson House
+\begin{detail}
+Anglican Church Grammar School
+\par
+\href{mailto:chris.nield@churchie.com.au}
+{chris.nield@churchie.com.au}
+\end{detail}
+
+
+%%%%%%%%%%%%%%%
+%% INTERESTS %%
+%%%%%%%%%%%%%%%
+
+%\section
+%{Interests}
+%{Interests}
+%{PDF:Interests}
+
+%Audio HiFi, 
+%Classical Guitar, 
+%Sailing
+
+\end{body}
+
+%%%%%%%%%%%
+% CV NOTE %
+%%%%%%%%%%%
+
+\begin{flushright}
+\scriptsize%
+[\textit{\CVNote}]%
+\hspace{2.0mm}\null
+\end{flushright}
+
+\label{LastPage}~
+\end{document}
