@@ -69,8 +69,8 @@ BoldItalicFont=FreeSerifBoldItalic]
 \def\ps@plain{%
 \def\@oddhead{}%
 \def\@evenhead{}%
-\def\@oddfoot{\footnotesize\hfill{Page}~{\thepage}~of~\pageref{LastPage}\hfill}%
-\def\@evenfoot{\footnotesize\hfill{Page}~{\thepage}~of~\pageref{LastPage}\hfill}}
+\def\@oddfoot{\footnotesize\hfill{Page}~{\thepage}~of~1\hfill}%
+\def\@evenfoot{\footnotesize\hfill{Page}~{\thepage}~of~1\hfill}}
 \makeatother
 
 \pagestyle{plain}
@@ -157,7 +157,7 @@ BoldItalicFont=FreeSerifBoldItalic]
 \textbf{#1}%
 \par\end{Huge}%
 \par\end{center}%
-\par\vspace{-1.75em}\par}
+\par\vspace{-1.4em}\par}
 
 % Macro: subtitle (personal information below name).
 \newenvironment{subtitle}
@@ -173,7 +173,7 @@ BoldItalicFont=FreeSerifBoldItalic]
 {\par\end{longtable}\par}
 
 % Macro: section (new section for Education, Research Experience, etc.).
-\renewcommand{\section}[3]{\\[-1.2em]\pdfbookmark[2]{#2}{#3}\\%
+\renewcommand{\section}[3]{\\[-1.35em]\pdfbookmark[2]{#2}{#3}\\%
 {\fontsize{9pt}{11pt}\selectfont\bfseries\raggedright%
 \MakeUppercase{#1}}&}
 
